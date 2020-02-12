@@ -1,3 +1,11 @@
+Description: Fetch branches from origin
+Command: git fetch origin (download all branches from the origin)
+
+
+Description: Save the remote branch to local branch
+Command: git checkout -b <local branch name> origin/<remote branch name>
+
+
 How to create a branch from GIThub
 
 //CLONE A REPOSITORY
