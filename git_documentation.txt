@@ -23,8 +23,9 @@ USEFUL GIT COMMAND
 
 1. git ls-files (view all files of the repository)
 2. git rm --cache <FileName> (remove a file from the repository)
-3. git branch -r (show available branches)
-4. git checkout <name of branch> (open specific branch)
+3. git branch (check the currently open branch)
+4. git branch -r (show available branches)
+5. git checkout <name of branch> (open specific branch)
 
 
 
