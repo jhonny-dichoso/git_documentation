@@ -1,6 +1,6 @@
 How to create a branch from GIThub
 
-//CLONE A REPOSITORY
+CLONE A REPOSITORY
 1. Create a folder and name it anything 
 2. Right click then select Git Bash here
 3. On Bash, type git clone <name of the remote> (e.g https://github.com/monmonplaza/myrepository.git)
@@ -8,19 +8,25 @@ How to create a branch from GIThub
 5. type git branch <branchName> (make sure the branch name is descriptive)
 6. type git checkout mybranch (this will switch you from master to the branch directory)
 7. type code . (this will open VSCode)
-8. add/update/delete any file 
-9. type git add . (add your update to the local repo)
-10. type git status (use to check the status of add)
-11. type git commit -m "your comment"
-12. type git push origin <branchName>
-13. type git checkout master (switch directory from branch to master)
-14. type git merge (merge branch update to the master repository )
 
 
+COMMIT CHANGES 
+1. type git add . (add your update to the local repo)
+2. type git status (use to check the status of add)
+3. type git commit -m "your comment"
+
+
+PUSH TO GIT REPO
+1. type git push origin <branchName>
+2. type git checkout master (switch directory from branch to master)
+3. type git merge (merge branch update to the master repository )
+
+
+PULL BRANCH FROM GIT
+1. git pull origin <branch name>
 
 
 USEFUL GIT COMMAND 
-
 1. git ls-files (view all files of the repository)
 2. git rm --cache <FileName> (remove a file from the repository)
 3. git branch (check the currently open branch)
@@ -28,9 +34,7 @@ USEFUL GIT COMMAND
 5. git checkout <name of branch> (open specific branch)
 
 
-
-//HOST YOUR WEBSITE USING GITHUB
-
+HOST YOUR WEBSITE USING GITHUB
 1. open the project directory
 2. right click then select Git Bash here
 3. type npm init  (install node_modules - edit the package info to your preference)
