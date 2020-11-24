@@ -16,12 +16,6 @@ COMMIT CHANGES
 3. type git commit -m "your comment"
 
 
-PUSH TO GIT REPO
-1. type git push origin <branchName>
-2. type git checkout master (switch directory from branch to master)
-3. type git merge (merge branch update to the master repository )
-
-
 FETCH A BRANCH (RECREATING THE REMOTE BRANCH IN YOUR LOCAL STORAGE)
 1. git fetch origin
 2. git checkout -b <branch name> origin/<branch name>
@@ -30,6 +24,15 @@ FETCH A BRANCH (RECREATING THE REMOTE BRANCH IN YOUR LOCAL STORAGE)
 PULL BRANCH FROM GIT (PERFORM JUST TO UPDATE THE ALREADY FETCHED BRANCH)
 1. git pull origin <branch name>
 
+
+PUSH TO GIT REPO
+1. type git push origin <branchName>
+2. type git checkout master (switch directory from branch to master)
+3. type git merge (merge branch update to the master repository )
+gi
+
+MERGE BRANCH TO MAIN
+1. git merge <branch name>
 
 USEFUL GIT COMMAND 
 1. git ls-files (view all files of the repository)
