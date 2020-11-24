@@ -29,10 +29,12 @@ PUSH TO GIT REPO
 1. type git push origin <branchName>
 2. type git checkout master (switch directory from branch to master)
 3. type git merge (merge branch update to the master repository )
-gi
+
 
 MERGE BRANCH TO MAIN
-1. git merge <branch name>
+1. git checkout main 
+2. git merge <branch name>
+
 
 USEFUL GIT COMMAND 
 1. git ls-files (view all files of the repository)
