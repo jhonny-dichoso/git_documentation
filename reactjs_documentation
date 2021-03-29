@@ -1,0 +1,7 @@
+START A NEW REACTJS PROJECT
+1. npm install -g create-create-app
+2. create-react-app . (if you are already inside your folder)
+
+INSTALL NODE-SASS IN REACTJS PROJECT
+1. npm install -s node-sass
+2. npm start
