@@ -5,3 +5,6 @@ START A NEW REACTJS PROJECT
 INSTALL NODE-SASS IN REACTJS PROJECT
 1. npm install -s node-sass
 2. npm start
+
+INSTALL REACT-ROUTER-ROM
+1. npm install -s react-router-dom
