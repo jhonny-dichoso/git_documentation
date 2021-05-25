@@ -1,5 +1,5 @@
 START A NEW REACTJS PROJECT
-1. npm install -g create-create-app
+1. npm install -g create-react-app
 2. create-react-app . (if you are already inside your folder)
 
 INSTALL NODE-SASS IN REACTJS PROJECT
@@ -8,3 +8,6 @@ INSTALL NODE-SASS IN REACTJS PROJECT
 
 INSTALL REACT-ROUTER-ROM
 1. npm install -s react-router-dom
+
+INSTALL FONT-AWESOME
+1. npm install react-icons
